@@ -8,10 +8,10 @@ git init
 git add .
 
 # Commit changes
-git commit -m "First commit"
+git commit -m "Second commit"
 
 # Tag the initial commit (optional)
-git tag -a v1.0.0 -m "Version 1.0.0"
+git tag -a v1.0.1 -m "Version 1.0.1"
 
 # Add the remote repository
 git remote add origin "$repo_url"
