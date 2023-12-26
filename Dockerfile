@@ -15,5 +15,8 @@ RUN virtualenv venv && . /app/venv/bin/activate
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY src/ ./src
+COPY tests/ ./tests
+
+RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
 # Set the entry point for the CMD
 CMD ["bash"]
