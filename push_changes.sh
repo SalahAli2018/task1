@@ -8,10 +8,10 @@ git init
 git add .
 
 # Commit changes
-git commit -m "Second commit"
+git commit -m "python:3.8-slim"
 
 # Tag the initial commit (optional)
-git tag -a v1.0.1 -m "Version 1.0.1"
+git tag -a v1.0.2 -m "Version 1.0.2"
 
 # Add the remote repository
 git remote add origin "$repo_url"
