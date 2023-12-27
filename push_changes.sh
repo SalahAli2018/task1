@@ -11,7 +11,7 @@ git add .
 git commit -m "python:3.8-slim"
 
 # Tag the initial commit (optional)
-git tag -a v1.0.2 -m "Version 1.0.2"
+git tag -a v1.0.3 -m "Version 1.0.3"
 
 # Add the remote repository
 git remote add origin "$repo_url"

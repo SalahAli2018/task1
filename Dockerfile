@@ -19,4 +19,4 @@ COPY src/ ./src
 
 
 # Set the entry point for the CMD
-CMD ["bash"]
+# CMD ["bash"]
